@@ -1,0 +1,18 @@
+@import "blocks/colors";
+@import "blocks/fonts";
+@import "blocks/breakpoints";
+
+@import "blocks/header";
+@import "blocks/booknow";
+@import "blocks/footer";
+@import "blocks/navigation";
+@import "blocks/notebook";
+@import "blocks/steps";
+@import "blocks/what-say";
+@import "blocks/why";
+@import "blocks/wrapper";
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
