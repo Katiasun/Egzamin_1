@@ -122,8 +122,130 @@
   fill: #ff6363;
 }
 
+.navigation {
+  height: 84px;
+  background-color: #5373fd;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 28px 0;
+}
+
+.list__link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.list__link a {
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 41px;
+}
+
+.list a:hover {
+  -webkit-text-decoration: underline 3px #5b30aa;
+          text-decoration: underline 3px #5b30aa;
+}
+
+.mobile__list li {
+  margin-right: 41px;
+}
+
+.why {
+  background: url("../img/img/WhyBackground.png") center center no-repeat;
+  background-size: cover;
+}
+
+.why h2 {
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  font-weight: normal;
+  text-align: left;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-top: 190px;
+  margin-bottom: 24px;
+}
+
+.why p {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  width: 648px;
+  margin-bottom: 32px;
+  letter-spacing: 0.1em;
+}
+
+.why .nacisk {
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  background-color: #486bfe;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 20px 32px;
+  margin-bottom: 190px;
+  margin-left: -410px;
+}
+
+.why__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  margin-top: 124px;
+  margin-bottom: 16px;
+}
+
+.why__images {
+  margin-bottom: 16px;
+}
+
+.why__images {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 /*# sourceMappingURL=main.css.map */

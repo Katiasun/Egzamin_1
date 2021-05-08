@@ -1,0 +1,58 @@
+.why {
+  background: url("../img/img/WhyBackground.png") center center no-repeat;
+  background-size: cover;
+
+  h2 {
+    color: $white;
+    font-family: $Aleo;
+    font-weight: normal;
+    text-align: left;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+
+    margin-top: 190px;
+    margin-bottom: 24px;
+  }
+  p {
+    color: $white;
+    font-family: $Josefin-Sans;
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 648px;
+    margin-bottom: 32px;
+    letter-spacing: 0.1em;
+  }
+  .nacisk {
+    color: $white;
+    font-family: $Aleo;
+    background-color: $accent-darker;
+
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 20px 32px;
+    margin-bottom: 190px;
+    margin-left: -410px;
+  }
+  &__images {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 124px;
+    margin-bottom: 16px;
+  }
+}
+.why__images {
+  margin-bottom: 16px;
+}
+.why__images {
+  align-self: flex-end;
+}
