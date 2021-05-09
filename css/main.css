@@ -219,60 +219,6 @@ button:hover {
   text-decoration: none;
 }
 
-.navigation {
-  height: 84px;
-  background-color: #5373fd;
-}
-
-.container {
-  text-align: center;
-}
-
-.logo {
-  color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 28px 0;
-}
-
-.list__link {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  list-style: none;
-}
-
-.list__link a {
-  color: #ffffff;
-  font-family: "Aleo", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  text-decoration: none;
-}
-
-.list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 41px;
-}
-
-.list a:hover {
-  -webkit-text-decoration: underline 3px #5b30aa;
-          text-decoration: underline 3px #5b30aa;
-}
-
-.mobile__list li {
-  margin-right: 41px;
-}
-
 .notebook {
   background: url("../img/img/spain-1859434_1280 1.png") center center no-repeat;
   background-size: cover;

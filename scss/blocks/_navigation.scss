@@ -1,51 +1,45 @@
 .navigation {
-  height: 84px;
-  background-color: $accent;
 }
 .container {
-  text-align: center;
+}
+.row {
+}
+.justify-content-between {
+}
+.col-12 {
 }
 .logo {
-  color: $white;
-  font-family: $Josefin-Sans;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 28px 0;
+  &__container {
+  }
 }
-.list {
+.col-lg-auto {
+}
+.article {
+  &__menu {
+  }
+
+  &__burger {
+  }
+}
+.menu {
+  &__list {
+  }
+
+  &__list-pills {
+  }
+
+  &__list-fill {
+  }
+
+  &__item {
+  }
+
   &__link {
-    align-items: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    list-style: none;
-  }
-  &__link a {
-    color: $white;
-    font-family: $Aleo;
-
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    text-decoration: none;
   }
 }
-.list ul {
-  display: flex;
-  margin-right: 41px;
+.justify-content-end {
 }
-// .list ul:not(:last-child) {
-//   padding-right: 40px;
-// }
-
-.list a:hover {
-  text-decoration: underline 3px rgb(91, 48, 170);
+.link {
 }
-.mobile {
-  &__list li {
-    margin-right: 41px;
-  }
+.burger {
 }
