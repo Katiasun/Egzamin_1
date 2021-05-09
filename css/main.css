@@ -219,6 +219,8 @@
 
 .footer__social svg {
   fill: #ffffff;
+  -webkit-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
 }
 
 .footer__social svg:hover {

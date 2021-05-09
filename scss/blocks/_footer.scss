@@ -30,6 +30,7 @@
   }
   &__social svg {
     fill: $white;
+    transition: all 0.5s linear 0s;
   }
   &__social svg:hover {
     fill: $accent;
