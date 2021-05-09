@@ -2,30 +2,85 @@
   margin: 0;
   background: url("../img/img/HeaderBackground.png") center center no-repeat;
   background-size: cover;
-}
-
-.container {
   text-align: center;
 }
 
-.row h1 {
+.header__title {
   font-family: "Josefin Sans", sans-serif;
   color: #ffffff;
   font-weight: bold;
   font-size: 48px;
   line-height: 52px;
-  margin-top: 295px;
+  padding-top: 295px;
   text-transform: uppercase;
 }
 
-.row h3 {
+.header__subtitle {
   font-family: "Josefin Sans", sans-serif;
   color: #ffffff;
   font-weight: normal;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 8px;
+  padding-top: 8px;
   letter-spacing: 0.31em;
+}
+
+.header__form {
+  -webkit-transition: all;
+  transition: all;
+  margin-top: 48px;
+}
+
+.form input {
+  font-family: "Josefin Sans", sans-serif;
+  color: #999999;
+  width: 647px;
+  padding: 20px 334px 20px 36px;
+  border: none;
+  -webkit-box-shadow: 0 0 10px #1dc5d1;
+          box-shadow: 0 0 10px #1dc5d1;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  z-index: -1;
+}
+
+.button {
+  background-color: #5373fd;
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -10px;
+  margin-left: -155px;
+  margin-bottom: -30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 16px 24px;
+  z-index: 2;
+}
+
+.button .search__img {
+  fill: #ffffff;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #4a4aca;
 }
 
 .row {
@@ -33,88 +88,17 @@
   text-align: center;
 }
 
-.d1,
-.d1 input,
-.d1 button {
-  border: none;
-  outline: none;
-  border-radius: 3px;
-}
-
-.d1 {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 48px;
-  width: 647px;
-  height: 60px;
-  border: none;
-}
-
-.d1 input {
-  font-family: "Josefin Sans", sans-serif;
-  color: #999999;
-  background: #ffffff;
-  width: 647px;
-  padding-left: 36px;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2em;
-}
-
-.d1 button {
-  color: #ffffff;
-  background: #5373fd;
-  top: 430px;
-  left: 930px;
-  position: absolute;
-  width: 132px;
-  height: 52px;
-  cursor: pointer;
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  margin: 10px 0px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border: #5373fd;
-}
-
-.search {
-  height: 18px;
-  width: 24px;
-  fill: #ffffff;
-}
-
 .csroll {
   font-family: "Josefin Sans", sans-serif;
   color: #ffffff;
   margin-top: 211px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   cursor: pointer;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.2em;
-}
-
-.arrow {
-  fill: #ffffff;
-}
-
-.csroll:hover,
-.arrow:hover {
-  color: #ff6363;
-  fill: #ff6363;
 }
 
 .booknow {

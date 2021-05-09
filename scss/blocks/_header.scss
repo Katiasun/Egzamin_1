@@ -2,99 +2,99 @@
   margin: 0;
   background: url("../img/img/HeaderBackground.png") center center no-repeat;
   background-size: cover;
-}
-.container {
   text-align: center;
 }
-.row h1 {
+
+.header__title {
   font-family: $Josefin-Sans;
   color: $white;
   font-weight: bold;
   font-size: 48px;
   line-height: 52px;
-  margin-top: 295px;
+  padding-top: 295px;
 
   text-transform: uppercase;
 }
-.row h3 {
+.header__subtitle {
   font-family: $Josefin-Sans;
   color: $white;
   font-weight: normal;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 8px;
+  padding-top: 8px;
 
   letter-spacing: 0.31em;
+}
+
+.header {
+  &__form {
+    transition: all;
+    margin-top: 48px;
+  }
+}
+.form {
+  input {
+    font-family: $Josefin-Sans;
+    color: $text-grey;
+
+    width: 647px;
+    padding: 20px 334px 20px 36px;
+    border: none;
+    box-shadow: 0 0 10px rgba($color: #1dc5d1, $alpha: 1);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 0.2em;
+    transition-duration: 0.5s;
+    transition-property: opacity;
+    z-index: -1;
+  }
+}
+.button {
+  background-color: $accent;
+  color: $white;
+  font-family: $Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -10px;
+  margin-left: -155px;
+  margin-bottom: -30px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+
+  padding: 16px 24px;
+  z-index: 2;
+
+  .search__img {
+    fill: $white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+button:hover {
+  background-color: rgb(74, 74, 202);
 }
 .row {
   position: relative;
   text-align: center;
 }
-.d1,
-.d1 input,
-.d1 button {
-  border: none;
-  outline: none;
-  border-radius: 3px;
-}
-.d1 {
-  max-width: 600px;
 
-  margin: 0 auto;
-  margin-top: 48px;
-
-  width: 647px;
-  height: 60px;
-  border: none;
-}
-.d1 input {
-  font-family: $Josefin-Sans;
-  color: $text-grey;
-  background: $white;
-
-  width: 647px;
-  padding-left: 36px;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2em;
-}
-.d1 button {
-  color: $white;
-  background: $accent;
-
-  top: 430px;
-  left: 930px;
-  position: absolute;
-  width: 132px;
-  height: 52px;
-  cursor: pointer;
-  order: 0;
-  flex-grow: 0;
-
-  margin: 10px 0px;
-
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border: $accent;
-}
-.search {
-  height: 18px;
-  width: 24px;
-  fill: $white;
-}
 .csroll {
   font-family: $Josefin-Sans;
   color: $white;
 
   margin-top: 211px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 
   cursor: pointer;
   font-weight: normal;
@@ -103,12 +103,4 @@
 
   text-align: center;
   letter-spacing: 0.2em;
-}
-.arrow {
-  fill: $white;
-}
-.csroll:hover,
-.arrow:hover {
-  color: $red;
-  fill: $red;
 }
