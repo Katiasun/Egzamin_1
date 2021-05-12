@@ -219,6 +219,47 @@ button:hover {
   text-decoration: none;
 }
 
+.navigation {
+  background: #5373fd;
+}
+
+.container {
+  height: 84px;
+}
+
+.logo__container {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 32px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__link {
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .notebook {
   background: url("../img/img/spain-1859434_1280 1.png") center center no-repeat;
   background-size: cover;
