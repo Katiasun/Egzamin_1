@@ -15,8 +15,7 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  margin-right: 557px;
-
+  padding-top: 32px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -27,6 +26,7 @@
   }
 }
 .list {
+  margin-left: 524px;
   &__sector {
     list-style: none;
     display: inline-block;
@@ -36,6 +36,8 @@
 }
 .menu {
   &__list {
+    // padding-top: 32px;
+    // padding-bottom: 32px;
   }
 }
 .sector {
@@ -52,8 +54,9 @@
     align-items: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding: 0 40px;
+    padding-right: 40px;
   }
+
   &__link:hover {
     color: rgb(76, 18, 143);
     text-decoration: underline 3px rgb(109, 13, 235);

@@ -232,9 +232,13 @@ button:hover {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  margin-right: 557px;
+  padding-top: 32px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.list {
+  margin-left: 524px;
 }
 
 .list__sector {
@@ -260,7 +264,7 @@ button:hover {
           align-items: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0 40px;
+  padding-right: 40px;
 }
 
 .sector__link:hover {
