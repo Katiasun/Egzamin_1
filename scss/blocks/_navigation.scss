@@ -2,61 +2,6 @@
   background: $accent;
 }
 .container {
-  height: 84px;
-}
-
-.logo {
-  &__container {
-    color: $white;
-    font-family: $Josefin-Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding-top: 32px;
-  }
-}
-
-.article {
-  &__menu {
-  }
-
-  &__burger {
-  }
-}
-.menu {
-  &__list {
-    list-style: none;
-  }
-
-  &__list-pills {
-  }
-
-  &__list-fill {
-  }
-
-  &__item {
-  }
-
-  &__link {
-    color: $white;
-    font-family: $Aleo;
-    display: flex;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-
-    align-items: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
-}
-
-.link {
-}
-.burger {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }

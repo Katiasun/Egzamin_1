@@ -39,6 +39,18 @@
   letter-spacing: 0.31em;
 }
 
+.form input {
+  color: #999999;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 334px 20px 36px;
+  letter-spacing: 0.2em;
+  border: none;
+  width: 647px;
+}
+
 .button {
   color: #ffffff;
   font-family: "Aleo", sans-serif;
@@ -47,13 +59,30 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
+  cursor: pointer;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  padding: 18px 24px;
+  margin-left: -155px;
+  border: none;
+  z-index: 2;
+}
+
+.button .lupa {
+  fill: #ffffff;
+  height: 25px;
+  width: 25px;
+  padding-right: 4px;
+}
+
+button:hover {
+  background: #2d80df;
 }
 
 .scroll {
   margin-top: 211px;
   padding-bottom: 120px;
+  cursor: pointer;
 }
 
 .scroll__down {
@@ -191,40 +220,8 @@
 }
 
 .container {
-  height: 84px;
-}
-
-.logo__container {
-  color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   padding-top: 32px;
-}
-
-.menu__list {
-  list-style: none;
-}
-
-.menu__link {
-  color: #ffffff;
-  font-family: "Aleo", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  padding-bottom: 32px;
 }
 
 .notebook {

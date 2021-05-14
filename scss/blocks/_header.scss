@@ -38,6 +38,17 @@
 }
 
 .form {
+  input {
+    color: $text-grey;
+    font-family: $Josefin-Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 334px 20px 36px;
+    letter-spacing: 0.2em;
+    border: none;
+    width: 647px;
+  }
 }
 .button {
   color: $white;
@@ -47,15 +58,31 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-
+  cursor: pointer;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  padding: 18px 24px;
+  margin-left: -155px;
+
+  border: none;
+  z-index: 2;
   .lupa {
+    fill: $white;
+    height: 25px;
+    width: 25px;
+    padding-right: 4px;
   }
 }
+button:hover {
+  background: rgb(45, 128, 223);
+}
+// .lupa:hover {
+//   fill: $accent;
+// }
 .scroll {
   margin-top: 211px;
   padding-bottom: 120px;
+  cursor: pointer;
   &__down {
     color: $white;
     font-family: $Josefin-Sans;
