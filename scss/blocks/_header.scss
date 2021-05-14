@@ -3,4 +3,72 @@
   background: url("../img/img/HeaderBackground.png") center center no-repeat;
   background-size: cover;
   text-align: center;
+  &__title {
+    padding-top: 295px;
+  }
+
+  &__subtitle {
+    padding-top: 8px;
+  }
+
+  &__form {
+    padding-top: 48px;
+  }
+}
+.title,
+.subtitle {
+  color: $white;
+  font-family: $Josefin-Sans;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+
+  text-transform: uppercase;
+}
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+
+  letter-spacing: 0.31em;
+}
+
+.form {
+}
+.button {
+  color: $white;
+  font-family: $Aleo;
+  background: $accent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  .lupa {
+  }
+}
+.scroll {
+  margin-top: 211px;
+  padding-bottom: 120px;
+  &__down {
+    color: $white;
+    font-family: $Josefin-Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding-bottom: 8px;
+  }
+
+  &__arrow {
+  }
 }
