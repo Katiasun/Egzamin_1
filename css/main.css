@@ -224,6 +224,17 @@ button:hover {
   padding-bottom: 32px;
 }
 
+.title {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .notebook {
   background: url("../img/img/spain-1859434_1280 1.png") center center no-repeat;
   background-size: cover;
