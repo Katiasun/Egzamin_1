@@ -227,12 +227,46 @@ button:hover {
 .title {
   color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
+  display: block;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  margin-right: 557px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.list__sector {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+.sector__link {
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+.sector__link:hover {
+  color: #4c128f;
+  -webkit-text-decoration: underline 3px #6d0deb;
+          text-decoration: underline 3px #6d0deb;
 }
 
 .notebook {

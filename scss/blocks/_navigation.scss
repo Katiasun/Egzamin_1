@@ -10,10 +10,12 @@
 .title {
   color: $white;
   font-family: $Josefin-Sans;
+  display: block;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  margin-right: 557px;
 
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -26,6 +28,10 @@
 }
 .list {
   &__sector {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
   }
 }
 .menu {
@@ -34,5 +40,22 @@
 }
 .sector {
   &__link {
+    color: $white;
+    font-family: $Aleo;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0 40px;
+  }
+  &__link:hover {
+    color: rgb(76, 18, 143);
+    text-decoration: underline 3px rgb(109, 13, 235);
   }
 }
