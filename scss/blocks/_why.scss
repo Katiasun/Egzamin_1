@@ -1,6 +1,8 @@
 .why {
   background: url("../img/img/WhyBackground.png") center center no-repeat;
   background-size: cover;
+  padding-top: 124px;
+  padding-bottom: 124px;
 
   h2 {
     color: $white;
@@ -40,19 +42,22 @@
     text-transform: uppercase;
     padding: 20px 32px;
     margin-bottom: 190px;
-    margin-left: -410px;
   }
+
   &__images {
     display: flex;
     flex-direction: column;
-    width: 350px;
+
     margin-top: 124px;
     margin-bottom: 16px;
   }
-}
-.why__images {
-  margin-bottom: 16px;
-}
-.why__images {
-  align-self: flex-end;
+  &__image {
+    width: 350px;
+    &--first {
+      margin-bottom: 25px;
+    }
+    &--second {
+      align-self: flex-end;
+    }
+  }
 }
