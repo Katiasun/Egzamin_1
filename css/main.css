@@ -5,25 +5,7 @@
   text-align: center;
 }
 
-.header__title {
-  padding-top: 295px;
-}
-
-.header__subtitle {
-  padding-top: 8px;
-}
-
-.header__form {
-  padding-top: 48px;
-}
-
-.title,
-.subtitle {
-  color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.title {
+.header__title-1 {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -31,12 +13,33 @@
   text-transform: uppercase;
 }
 
-.subtitle {
+.header__subtitle-1 {
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.31em;
+  margin-bottom: 48px;
+}
+
+.header__form {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title-1,
+.subtitle-1 {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.title-1 {
+  padding-top: 295px;
+}
+
+.subtitle-1 {
+  padding-top: 8px;
 }
 
 .form input {
@@ -45,10 +48,11 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  padding: 20px 334px 20px 36px;
+  padding: 23px 144px 25px 36px;
   letter-spacing: 0.2em;
   border: none;
-  width: 647px;
+  width: 100%;
+  display: block;
 }
 
 .button {
@@ -66,6 +70,13 @@
   margin-left: -155px;
   border: none;
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  position: absolute;
+  right: 3px;
+  top: 5px;
 }
 
 .button .lupa {
@@ -100,9 +111,6 @@ button:hover {
 .booknow {
   background: url("../img/img/render-1477041_1280 1.png") center center no-repeat;
   background-size: cover;
-}
-
-.container {
   padding-top: 220px;
 }
 
@@ -217,9 +225,6 @@ button:hover {
 
 .navigation {
   background: #5373fd;
-}
-
-.container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -276,9 +281,6 @@ button:hover {
 .notebook {
   background: url("../img/img/spain-1859434_1280 1.png") center center no-repeat;
   background-size: cover;
-}
-
-.container1 {
   padding-top: 220px;
 }
 
@@ -380,9 +382,6 @@ button:hover {
 .what-say {
   background: url("../img/img/BG.png") center center no-repeat;
   background-size: cover;
-}
-
-.container {
   padding-bottom: 180px;
   width: 1320px;
 }
