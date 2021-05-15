@@ -112,6 +112,7 @@ button:hover {
   background: url("../img/img/render-1477041_1280 1.png") center center no-repeat;
   background-size: cover;
   padding-top: 220px;
+  padding-bottom: 120px;
 }
 
 .card {
@@ -281,6 +282,7 @@ button:hover {
   background: url("../img/img/spain-1859434_1280 1.png") center center no-repeat;
   background-size: cover;
   padding-top: 220px;
+  padding-bottom: 120px;
 }
 
 .card1 {
@@ -289,7 +291,7 @@ button:hover {
   background: rgba(35, 35, 35, 0.9);
   padding-top: 44px;
   padding-left: 32px;
-  margin: 220px 300px 120px 971px;
+  margin-left: 971px;
 }
 
 .card1 h4 {
@@ -340,6 +342,8 @@ button:hover {
 
 .steps {
   background: #333333;
+  padding-top: 60px;
+  padding-bottom: 59px;
 }
 
 .inner {
@@ -369,26 +373,25 @@ button:hover {
 }
 
 .inner svg {
-  padding: 18px;
-  border: 2px solid transparent;
+  margin-left: 125px;
+  border: 3px solid transparent;
   border-radius: 50px;
 }
 
 .inner a:hover svg {
-  border: 2px solid #ad77f3;
+  border: 3px solid #ad77f3;
 }
 
 .what-say {
   background: url("../img/img/BG.png") center center no-repeat;
   background-size: cover;
+  padding-top: 120px;
   padding-bottom: 180px;
-  width: 1320px;
 }
 
 .what-say__title h1 {
   font-family: "Aleo", sans-serif;
   color: #ffffff;
-  padding-top: 120px;
   padding-bottom: 60px;
   font-style: normal;
   font-weight: normal;
