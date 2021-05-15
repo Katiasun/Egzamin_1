@@ -229,7 +229,7 @@ button:hover {
   padding-bottom: 32px;
 }
 
-.title {
+.title-2 {
   color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
   display: block;
@@ -237,19 +237,18 @@ button:hover {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  padding-top: 32px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .list {
-  margin-left: 524px;
+  margin-left: 673px;
+  margin-top: -27px;
 }
 
 .list__sector {
   list-style: none;
   display: inline-block;
-  float: left;
   line-height: 100px;
 }
 
