@@ -253,6 +253,12 @@ button:hover {
   line-height: 100px;
 }
 
+@media (max-width: 1360px) {
+  .manu__list {
+    display: none;
+  }
+}
+
 .sector__link {
   color: #ffffff;
   font-family: "Aleo", sans-serif;
@@ -416,6 +422,13 @@ button:hover {
   padding-bottom: 48px;
 }
 
+@media (max-width: 1360px) {
+  .review {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
 .review h2 {
   font-style: normal;
   font-weight: normal;
@@ -432,6 +445,12 @@ button:hover {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.1em;
+}
+
+@media (max-width: 1360px) {
+  .container__text {
+    width: 100%;
+  }
 }
 
 .icon svg {
@@ -465,7 +484,7 @@ button:hover {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  width: 648px;
+  width: 648px, calc(50vw -648px);
   margin-bottom: 32px;
   letter-spacing: 0.1em;
 }

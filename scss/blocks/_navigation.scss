@@ -38,6 +38,9 @@
 }
 .manu {
   &__list {
+    @media (max-width: 1360px) {
+      display: none;
+    }
   }
 }
 .sector {
