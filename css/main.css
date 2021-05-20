@@ -115,6 +115,10 @@ button:hover {
   padding-bottom: 120px;
 }
 
+.booknow .row {
+  width: 648px, calc(50vw - 648px);
+}
+
 .card {
   width: 648px;
   text-align: left;
@@ -253,7 +257,7 @@ button:hover {
   line-height: 100px;
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 576px) {
   .manu__list {
     display: none;
   }
@@ -297,7 +301,18 @@ button:hover {
   background: rgba(35, 35, 35, 0.9);
   padding-top: 44px;
   padding-left: 32px;
-  margin-left: 971px;
+}
+
+@media (max-width: 1024px) {
+  .card1 {
+    margin-left: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card1 {
+    margin-left: 24px;
+  }
 }
 
 .card1 h4 {

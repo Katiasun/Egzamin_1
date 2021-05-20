@@ -38,7 +38,7 @@
 }
 .manu {
   &__list {
-    @media (max-width: 1360px) {
+    @media (max-width: 576px) {
       display: none;
     }
   }

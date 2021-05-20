@@ -7,6 +7,9 @@
 }
 .container {
 }
+.booknow .row {
+  width: 648px, calc(50vw - 648px);
+}
 .card {
   width: 648px;
   text-align: left;
