@@ -4,8 +4,6 @@
   padding-top: 120px;
   padding-bottom: 180px;
 }
-.container {
-}
 .what-say__title h1 {
   font-family: $Aleo;
   color: $white;
@@ -19,20 +17,18 @@
   text-align: center;
   text-transform: capitalize;
 }
-.row {
-}
 .container__img {
-  width: 480px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .review {
   font-family: $Josefin-Sans;
   color: $white;
   background: $dark-grey;
-  width: 885px;
   text-align: left;
-  padding-top: 48px;
-  padding-left: 60px;
-  padding-bottom: 48px;
+  padding: 48px 60px;
+
   @media (max-width: 1360px) {
     width: 100%;
     padding-bottom: 20px;
@@ -49,8 +45,6 @@
   margin-bottom: 16px;
 }
 .container__text {
-  width: 760px;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
@@ -60,6 +54,10 @@
     width: 100%;
   }
 }
-.icon svg {
-  margin-bottom: -15px;
+.container__text ::before {
+  content: "";
+  background: url("../svg/svg/quotes.svg") no-repeat center;
+  width: 64px;
+  height: 54px;
+  fill: $accent;
 }

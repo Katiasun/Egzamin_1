@@ -1,7 +1,7 @@
 .navigation {
   background: $accent;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 26px;
+  padding-bottom: 21px;
 }
 .container {
   &__manu {
@@ -19,16 +19,7 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.manu {
-}
-.container {
-  &__manu {
-  }
-}
 .list {
-  margin-left: 665px;
-  margin-top: -27px;
-
   &__sector {
     list-style: none;
     display: inline-block;
@@ -62,6 +53,6 @@
 
   &__link:hover {
     color: rgb(76, 18, 143);
-    text-decoration: underline 3px rgb(109, 13, 235);
+    text-decoration: overline 2px rgb(57, 10, 119);
   }
 }

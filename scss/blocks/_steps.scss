@@ -3,14 +3,6 @@
   padding-top: 60px;
   padding-bottom: 59px;
 }
-.container {
-}
-
-.inner {
-  margin-top: 170px;
-  margin-bottom: 103px;
-}
-
 .inner a {
   text-decoration: none;
 }
@@ -30,10 +22,6 @@
   text-decoration: underline rgb(182, 140, 238);
 }
 .inner svg {
-  margin-left: 125px;
-  border: 3px solid transparent;
-  border-radius: 50px;
-}
-.inner a:hover svg {
-  border: 3px solid rgb(173, 119, 243);
+  display: flex;
+  margin: 0 auto;
 }

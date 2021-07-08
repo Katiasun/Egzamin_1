@@ -3,6 +3,7 @@
   background: url("../img/img/HeaderBackground.png") center center no-repeat;
   background-size: cover;
   text-align: center;
+
   &__title-1 {
     font-style: normal;
     font-weight: bold;
@@ -75,6 +76,7 @@
   position: absolute;
   right: 3px;
   top: 5px;
+  align-items: center;
   .lupa {
     fill: $white;
     height: 25px;
@@ -85,13 +87,11 @@
 button:hover {
   background: rgb(45, 128, 223);
 }
-// .lupa:hover {
-//   fill: $accent;
-// }
 .scroll {
   margin-top: 211px;
   padding-bottom: 120px;
   cursor: pointer;
+
   &__down {
     color: $white;
     font-family: $Josefin-Sans;

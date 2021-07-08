@@ -31,23 +31,26 @@
   &__social svg {
     fill: $white;
     transition: all 0.5s linear 0s;
+    height: 18px;
   }
   &__social svg:hover {
     fill: $accent;
   }
 }
 .social {
-  &__list li {
+  &__list {
     list-style: none;
-    display: inline;
+    display: flex;
+    justify-content: center;
   }
 
-  &__item li {
+  &__item {
   }
   &__item:not(:last-child) {
-    margin-right: 80px;
+    margin-right: 8px;
   }
-  &__link a {
+  &__link {
+    display: flex;
     text-decoration: none;
   }
 }
