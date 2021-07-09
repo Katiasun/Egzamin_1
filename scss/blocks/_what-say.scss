@@ -54,10 +54,11 @@
     width: 100%;
   }
 }
-.container__text ::before {
+.container__text::before {
   content: "";
   background: url("../svg/svg/quotes.svg") no-repeat center;
   width: 64px;
   height: 54px;
-  fill: $accent;
+  display: block;
+  // background-color: $accent;
 }
