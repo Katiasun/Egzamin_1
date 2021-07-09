@@ -57,8 +57,10 @@
 .container__text::before {
   content: "";
   background: url("../svg/svg/quotes.svg") no-repeat center;
-  width: 64px;
-  height: 54px;
+  width: 20px;
+  height: 20px;
   display: block;
-  // background-color: $accent;
+  float: left;
+  margin-right: 18px;
+  margin-bottom: 5px;
 }
