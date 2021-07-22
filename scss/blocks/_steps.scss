@@ -1,0 +1,27 @@
+.steps {
+  background: $dark-grey;
+  padding-top: 60px;
+  padding-bottom: 59px;
+}
+.inner a {
+  text-decoration: none;
+}
+.inner h2 {
+  margin-top: 4px;
+  color: $white;
+  font-family: $Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+.inner:hover {
+  text-decoration: underline rgb(182, 140, 238);
+}
+.inner svg {
+  display: flex;
+  margin: 0 auto;
+}

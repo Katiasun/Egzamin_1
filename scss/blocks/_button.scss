@@ -1,0 +1,16 @@
+@mixin boook {
+  background-color: $accent;
+  color: $white;
+  font-family: $Aleo;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 20px 56px;
+  margin-bottom: 44px;
+}

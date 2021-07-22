@@ -1,0 +1,19 @@
+@import "blocks/colors";
+@import "blocks/fonts";
+@import "blocks/breakpoints";
+@import "blocks/button";
+
+@import "blocks/header";
+@import "blocks/booknow";
+@import "blocks/footer";
+@import "blocks/navigation";
+@import "blocks/steps";
+@import "blocks/what-say";
+@import "blocks/why";
+@import "blocks/wrapper";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

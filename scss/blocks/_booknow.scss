@@ -1,0 +1,66 @@
+.booknow {
+  padding-top: 220px;
+  padding-bottom: 120px;
+
+  &--first {
+    background: url("../img/img/render-1477041_1280 1.png") center center
+      no-repeat;
+    background-size: cover;
+  }
+
+  &--second {
+    background: url("../img/img/spain-1859434_1280 1.png") center center
+      no-repeat;
+    background-size: cover;
+  }
+}
+.booknow .row {
+  width: 648px, calc(50vw - 648px);
+}
+.card {
+  text-align: left;
+  background: rgba(35, 35, 35, 0.9);
+  padding: 40px;
+}
+.card h4 {
+  color: $white;
+  font-family: $Josefin-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+
+  text-transform: uppercase;
+}
+.card p {
+  color: $white;
+  font-family: $Josefin-Sans;
+  font-weight: 300;
+  line-height: 28px;
+
+  letter-spacing: 0.1em;
+}
+.spain {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.text {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.book {
+  background-color: $accent;
+  color: $white;
+  font-family: $Aleo;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 20px 56px;
+}
